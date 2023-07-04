@@ -8,7 +8,6 @@ body{
 .backimg{
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-image: url(img1.jpg) ; */
   color: white;
   background-color: black;
   position: relative;
@@ -18,24 +17,12 @@ body{
 .backimg{
   height: 750px;
   width: 100%;
-  /* filter: brightness(0.5); */
 }
-/* .backimg img{
-  width: 30%;
-    margin-top: 18px;
-} */
-/* .nav{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-} */
 .backimg img{
   width: 135px;
   
 }
-/* .backimg button{
-    display: flex;
-} */
+
 .backimg button{
     width: 80px;
     cursor: pointer;
@@ -46,8 +33,6 @@ body{
     border-radius: 6px;
     border: 0;
     border-color: red;
-    /* margin-top: 15px; */
-    /* margin-left: 250px; */
 }
 .backimg button:hover{
     background-color: transparent;
@@ -222,12 +207,6 @@ body{
   margin: 5px;
 }
 
-/* .footer h4{
-    border-top: 4px solid gray;
-     /* margin-top: 53px; */
-    /* display: flex; */
-    /* justify-content: left; */
-/* } */
 .footer{
     display: flex;
     justify-content: center;
@@ -275,7 +254,6 @@ body{
     margin-left: -5px;
   }
   .second p{
-    /* font-size: 20px; */
     font-size: 20px;
     text-align: center;
     margin-left: -5px;
@@ -286,7 +264,6 @@ body{
     flex-direction: column;
     padding: 20px;
     color: rgb(255,255,255);
-    /* align-items: center; */
   }
   .footer .list {
     margin-bottom: 5px;
@@ -329,11 +306,6 @@ body{
     font-size: 16px;
   }
   .main {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center; */
     height: 395px;
     padding: 20px;
   }
@@ -389,9 +361,7 @@ body{
     background-color: #e30d0d;
     color: white;
     font-size: 25px;
-    /* border: none; */
     border-radius: 4px;
-    /* margin: 5px; */
     align-items: center;
     margin-left: 88px;
   }
